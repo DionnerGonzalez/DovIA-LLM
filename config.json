@@ -1,0 +1,21 @@
+{
+  "vocab_size": 6000,
+  "context_length": 256,
+  "d_model": 256,
+  "n_heads": 8,
+  "n_kv_heads": 4,
+  "n_layers": 6,
+  "d_ff": 1024,
+  "dropout": 0.1,
+  "batch_size": 8,
+  "epochs": 15,
+  "lr": 0.0003,
+  "weight_decay": 0.1,
+  "grad_clip": 1.0,
+  "warmup_steps": 100,
+  "save_every": 5,
+  "log_every": 20,
+  "data_file": null,
+  "checkpoint_dir": "checkpoints",
+  "tokenizer_dir": "checkpoints/tokenizer"
+}
